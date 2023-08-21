@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Vidéos</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <header>
+      <p>
+        <span id="videos-amount"></span>
+        <span id="total-duration"></span>
+        <span id="not-watched-amount"></span>
+        <span id="not-watched-duration"></span>
+      </p>
+      <br />
+      <section id="controls">
+        <label for="author-filter">Filtrer par auteur-ice</label>
+        <input type="text" id="author-filter" />
+        <label for="title-filter">Filtrer par titre</label>
+        <input type="text" id="title-filter" />
+        <label for="category-filter">Filtrer par catégorie(s)</label>
+        <select id="category-filter">
+          <option value="">Catégories</option>
+        </select>
+        <input type="checkbox" name="watched-filter" id="watched-filter" />
+        <label for="watched-filter">Ne montrer que les vidéos à regarder</label>
+      </section>
+    </header>
+    <table id="videos">
+      <thead id="table-headers">
+        <tr>
+          <th id="author-th">Auteur-ice</th>
+          <th id="title-th">Titre</th>
+          <th id="duration-th">Durée</th>
+          <th id="category-th">Catégories</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </body>
+
+  <script defer src="./src/index.js" type="module"></script>
+
+  <link rel="stylesheet" href="main.css" />
+</html>
