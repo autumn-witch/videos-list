@@ -15,7 +15,7 @@ De surcroît, vous pouvez ordonner la liste des vidéos par chacun des champs (e
 ## Utilisation
 
 - Télécharger le dépôt
-- Créer un fichier `videos.js` à la racine du dossier ou renommer `videos.example.js` en `videos.js`, et le remplir à votre guise, en respectant toutefois le format indiqué
+- Remplir le tableau `videos` ligne 47 du fichier `index.html` à votre guise, en respectant toutefois le format indiqué
 - Ouvrir `index.html` via un navigateur
 - Voilà tout =)
 
