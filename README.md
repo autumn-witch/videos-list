@@ -1,30 +1,30 @@
-# Bienvenue sur VideosList ![logo](https://github.com/maevdb/videos-list/assets/55837878/610a4127-eee3-4f79-b303-75b9409c3a34)
+# Welcome to VideosList ![logo](https://github.com/maevdb/videos-list/assets/55837878/610a4127-eee3-4f79-b303-75b9409c3a34)
 
 
 ## Description
 
-Il s'agit d'une interface très simple ayant pour but d'afficher une liste de vidéos comprenant les informations descriptives suivantes:
-- Titre de la vidéo
-- Auteur-ice
-- Durée en heures/minutes
-- Catégorie associée
-- Vidéo vue ou non
+This is a very simple interface designed to display a list of videos with the following descriptive information:
+- Video title
+- Author
+- Duration in hours/minutes
+- Associated category
+- Video viewed or not
 
-Vous pouvez également appliquer des filtres sur le titre, l'auteur-ice, et/ou la catégorie.
-De surcroît, vous pouvez ordonner la liste des vidéos par chacun des champs (ex: ordonner par titre, de A à Z), en cliquant sur le champ associé.
+You can also apply filters to the title, author and/or category.
+In addition, you can order the list of videos by each of the fields (e.g. order by title, from A to Z), by clicking on the associated field.
 
-## Utilisation
+## Use
 
-- Télécharger le dépôt
-- Remplir le tableau `videos` ligne 47 du fichier `index.html` à votre guise, en respectant toutefois le format indiqué
-- Ouvrir `index.html` via un navigateur
-- Voilà tout =)
+- Download the repository
+- Fill in the `videos` table on line 47 of the `index.html` file as you wish, but respect the format indicated.
+- Open `index.html` using a browser
+- That's all there is to it =)
 
-## Limites actuelles
+## Current limits
 
-- On ne peut pas ordonner selon plusieurs critères (par ex ordonner par titre ET par auteur-ice).
-- On ne peut attribuer qu'une seule catégorie à chaque vidéo.
+- You cannot order by several criteria (e.g. order by title AND by author).
+- Only one category can be assigned to each video.
 
-## À venir
+## Coming soon
 
-- Ajout d'un bouton pour reset tous les filtres en un clic
+- Add a button to reset all filters in one click
